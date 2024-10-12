@@ -12,7 +12,7 @@ services:
 
   jenkins:
     container_name: "Jenkins"
-    image: jenkins_local:latest
+    image: jenkins_server:latest
     restart: on-failure
     privileged: true
     user: root
