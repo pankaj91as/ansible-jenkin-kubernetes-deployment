@@ -1,4 +1,4 @@
-FROM jenkins:2.60.3-alpine
+FROM jenkins/jenkins:latest
 
 EXPOSE 8080
 EXPOSE 50000
